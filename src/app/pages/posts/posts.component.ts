@@ -22,4 +22,8 @@ export class PostsComponent implements OnInit {
 
   }
 
+  listenerClick (id: number){
+    console.log('Click in: ', id);
+  }
+
 }
